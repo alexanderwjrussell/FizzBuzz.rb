@@ -1,4 +1,4 @@
-require_relative '../FizzBuzz'
+require_relative '../fizzbuzz'
 
 RSpec.configure do |config|
   # Use color in STDOUT
