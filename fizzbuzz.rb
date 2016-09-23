@@ -8,8 +8,7 @@ class FizzBuzz
     elsif num == 15
       return "FizzBuzz"
     else
-      return 1
-
+      return num
     end
   end
 
