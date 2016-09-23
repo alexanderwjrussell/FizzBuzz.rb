@@ -25,4 +25,8 @@ describe FizzBuzz do
   it "Return number when a number which isn't divisible by 3 / 5 / 15" do
     expect(@FizzBuzz.number(2)).to eq(2)
   end
+
+  it "Return Fizz when passed a multiple of 3" do
+    expect(@FizzBuzz.number(6)).to eq("Fizz")
+  end
 end
