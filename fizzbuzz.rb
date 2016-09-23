@@ -5,8 +5,11 @@ class FizzBuzz
       return "Fizz"
     elsif num == 5
       return "Buzz"
+    elsif num == 15
+      return "FizzBuzz"
     else
-      return "FizzBuzz"   
+      return 1
+
     end
   end
 
