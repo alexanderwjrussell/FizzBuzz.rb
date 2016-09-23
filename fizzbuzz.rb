@@ -1,12 +1,12 @@
 class FizzBuzz
 
   def number(num)
-    if num == 3
+    if num == 15
+      return "FizzBuzz"
+    elsif num % 3 == 0
       return "Fizz"
     elsif num == 5
       return "Buzz"
-    elsif num == 15
-      return "FizzBuzz"
     else
       return num
     end
