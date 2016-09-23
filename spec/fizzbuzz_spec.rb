@@ -29,4 +29,8 @@ describe FizzBuzz do
   it "Return Fizz when passed a multiple of 3" do
     expect(@FizzBuzz.number(6)).to eq("Fizz")
   end
+
+  it "Return Fizz when passed a multiple of 5" do
+    expect(@FizzBuzz.number(10)).to eq("Buzz")
+  end
 end
